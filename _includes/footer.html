@@ -1,0 +1,37 @@
+<footer class="site-footer">
+
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li>
+              <p class="rss-subscribe">S'abonner <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            {% if site.github_username %}
+            <li>
+              {% include icon-github.html username=site.github_username %}
+            </li>
+            {% endif %}
+
+            {% if site.twitter_username %}
+            <li>
+              {% include icon-twitter.html username=site.twitter_username %}
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+            <p>Copyright © {{ "now" | date:"%Y" }}</p>
+            <p>Contenu sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>.<br/>
+              Sauf mention contraire, les éventuels extraits de code sont sous license <a href="https://www.gnu.org/licenses/gpl-3.0.txt" target="_blank">GNU GPLv3</a>.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>

@@ -1,0 +1,34 @@
+# Site settings
+title: Blog d'Octachore
+email: octachore@outlook.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Ceci est mon blog. Je n'y écrit pas dans l'objectif d'être lu (mais si vous le faites quand même ce n'est pas grave :P).
+  J'y posterai des articles sur mes lectures, mes créations de jeux de société et de rôles...
+  Mon blog technique (en anglais) se trouve ici : https://kyrdairrin.github.io/
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://octachore.github.io/"
+twitter_username: Octachore
+github_username:  Octachore
+author: Octachore
+
+# Minima
+minima:
+  date_format: "%d/%m/%Y %H:%M"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Static files
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# Others
+disqus:
+  shortname: octachore
+google_analytics: UA-71616950-3
