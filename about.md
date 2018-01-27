@@ -6,7 +6,7 @@ permalink: /a-propos/
 
 <img align="left" class="avatar" src="/assets/img/avatar.jpeg">
 
-Ceci est mon blog, très simplement créé grâce à [Jekyll](https://jekyllrb.com). Je n'y écrit pas dans l'objectif d'être lu (mais si vous le faites quand même ce n'est pas grave 😜).
+Ceci est mon blog, très simplement créé grâce à [Jekyll](https://jekyllrb.com). Je n'y écrit pas dans l'objectif d'être lu (mais si vous le faites quand même ce n'est pas grave 😜), d'où un rythme de publication plutôt erratique.
 
 J'y posterai des articles sur mes lectures, mes créations de jeux de société et jeux de rôles...
 
