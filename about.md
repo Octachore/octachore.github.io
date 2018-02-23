@@ -10,4 +10,4 @@ Ceci est mon blog, très simplement créé grâce à [Jekyll](https://jekyllrb.c
 
 J'y posterai des articles sur mes lectures, mes créations de jeux de société et jeux de rôles...
 
-Mon blog technique (en anglais) se trouve ici : <https://kyrdairrin.github.io/>
+Mon blog technique (en anglais) se trouve ici : <https://kyrdairrin.gitlab.io/>
